@@ -1,0 +1,288 @@
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+  display: block; }
+
+audio, canvas, progress, video {
+  display: inline-block;
+  vertical-align: baseline; }
+
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+[hidden], template {
+  display: none; }
+
+a {
+  background: 0 0; }
+
+a:active, a:hover {
+  outline: 0; }
+
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+b, strong {
+  font-weight: 700; }
+
+dfn {
+  font-style: italic; }
+
+h1 {
+  font-size: 2em;
+  margin: .67em 0; }
+
+mark {
+  background: #ff0;
+  color: #000; }
+
+small {
+  font-size: 80%; }
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -.5em; }
+
+sub {
+  bottom: -.25em; }
+
+img {
+  border: 0; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+figure {
+  margin: 1em 40px; }
+
+hr {
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  height: 0; }
+
+pre {
+  overflow: auto; }
+
+code, kbd, pre, samp {
+  font-family: monospace,monospace;
+  font-size: 1em; }
+
+button, input, optgroup, select, textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0; }
+
+button {
+  overflow: visible; }
+
+button, select {
+  text-transform: none; }
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+button[disabled], html input[disabled] {
+  cursor: default; }
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+input {
+  line-height: normal; }
+
+input[type=checkbox], input[type=radio] {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0; }
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+  height: auto; }
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: .35em .625em .75em; }
+
+legend {
+  border: 0;
+  padding: 0; }
+
+textarea {
+  overflow: auto; }
+
+optgroup {
+  font-weight: 700; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td, th {
+  padding: 0; }
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.clearfix:after {
+  content: " ";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both; }
+
+body {
+  width: 100%;
+  *zoom: 1; }
+  body:before, body:after {
+    content: "";
+    display: table; }
+  body:after {
+    clear: both; }
+
+@font-face {
+  font-family: 'porter_sans_blockblock';
+  src: url("fonts/porter-sans-inline-block-webfont.eot");
+  src: url("fonts/porter-sans-inline-block-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/porter-sans-inline-block-webfont.woff") format("woff"), url("fonts/porter-sans-inline-block-webfont.ttf") format("truetype"), url("fonts/porter-sans-inline-block-webfont.svg#porter_sans_blockblock") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'sonsie_oneregular';
+  src: url("fonts/sonsie/sonsieone-regular-webfont.eot");
+  src: url("fonts/sonsie/sonsieone-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/sonsie/sonsieone-regular-webfont.woff") format("woff"), url("fonts/sonsie/sonsieone-regular-webfont.ttf") format("truetype"), url("fonts/sonsie/sonsieone-regular-webfont.svg#sonsie_oneregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+body {
+  background: url(images/chalkboard.jpg);
+  color: #fff;
+  font-size: 30px;
+  word-spacing: 10px; }
+
+title {
+  font-size: 14px; }
+
+.Texttitle {
+  display: inline;
+  float: left;
+  width: 97.91667%;
+  margin: 0 1.04167%;
+  padding-bottom: 100px; }
+  .Texttitle h1 {
+    display: inline;
+    float: left;
+    width: 31.25%;
+    margin: 0 1.04167%;
+    margin-left: 34.375%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    font-family: 'porter_sans_blockblock';
+    font-size: 80px;
+    margin-left: 360px; }
+  .Texttitle h2 {
+    display: inline;
+    float: left;
+    width: 64.58333%;
+    margin: 0 1.04167%;
+    margin-left: 21.875%;
+    font-family: 'sonsie_oneregular';
+    padding-bottom: 60px; }
+  .Texttitle h3 {
+    font-family: 'cambria';
+    display: inline;
+    float: left;
+    width: 47.91667%;
+    margin: 0 1.04167%;
+    margin-left: 26.04167%;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 50px; }
+  .Texttitle .pig {
+    margin-left: 30.20833%; }
+  .Texttitle input {
+    display: inline;
+    float: left;
+    width: 31.25%;
+    margin: 0 1.04167%;
+    margin-left: 34.375%;
+    padding-top: 20px;
+    margin-top: 70px;
+    text-align: center;
+    font-family: 'cambria', 'sans-serif'; }
+  .Texttitle input:hover {
+    color: orange; }
+  .Texttitle input:focus, .Texttitle textarea:focus {
+    border-color: orange;
+    outline-color: orange;
+    text-align: center; }
+  .Texttitle path {
+    fill: #C65D57; }
+  .Texttitle .bacon {
+    margin-left: 90px;
+    margin-top: 30px; }
+
+.holiday {
+  color: black; }
+
+ul li {
+  list-style-type: none;
+  line-height: 120px; }
+
+.recipe {
+  padding-left: 90px; }
+  .recipe a {
+    text-decoration: none;
+    color: white;
+    text-align: left; }
+  .recipe img {
+    width: 320px;
+    height: 220px; }
+  .recipe .result {
+    border: 2px solid lightgrey;
+    float: left;
+    width: 30%;
+    height: 500px;
+    padding: 20px;
+    margin: 5px; }
+    .recipe .result h1 {
+      font-family: helvetica;
+      font-size: 20px;
+      text-align: left;
+      text-decoration: none;
+      color: white; }
+    .recipe .result .ingredientlist {
+      font-size: 14px;
+      text-align: left; }
+
+.notfound p {
+  font-size: 24px;
+  text-align: center;
+  color: white;
+  font-family: Helvetica;
+  padding-bottom: 120px; }
